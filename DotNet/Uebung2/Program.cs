@@ -38,4 +38,41 @@
 //test1.drucken();
 
 //Aufgabe5 - Nim-Spiel
+int stones = 23;
+string player = "A";
 
+while(stones > 1)
+{
+    Console.WriteLine("Restliche Steine im Spiel: " + stones);
+    play();
+
+    //switch player
+    switch(player)
+    {
+        case "A":
+            player = "B";
+            break;
+        case "B":
+            player = "A";
+            break;
+        default:
+            break;
+    }
+}
+
+Console.WriteLine("Spiel beendet: Spieler " + player + " hat das Spiel gewonnen!");
+
+void play()
+{
+    Console.WriteLine("Spieler " + player + ": Eingabe der Anzahl an Steinen die Sie nehmen wollen (1 - 3)");
+    int stoneAmount = Convert.ToInt32(Console.ReadLine());
+
+    if(stoneAmount < 1 || stoneAmount > 3)
+    {
+        Console.WriteLine("Zu viele oder zu wenige Steine!");
+        Console.ReadLine();
+        play();
+    }
+
+    stones -= stoneAmount;
+}
