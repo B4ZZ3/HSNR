@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bjarne\\Documents\\HSNR\\4. Semester\\BWI 403 - Softwareentwicklung mit .NET\\Code\\Uebung2\\Uebung2.csproj": {}
+    "C:\\Users\\Bjarne\\Documents\\HSNR\\HSNR-Code\\DotNet\\Uebung2\\Uebung2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bjarne\\Documents\\HSNR\\4. Semester\\BWI 403 - Softwareentwicklung mit .NET\\Code\\Uebung2\\Uebung2.csproj": {
+    "C:\\Users\\Bjarne\\Documents\\HSNR\\HSNR-Code\\DotNet\\Uebung2\\Uebung2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bjarne\\Documents\\HSNR\\4. Semester\\BWI 403 - Softwareentwicklung mit .NET\\Code\\Uebung2\\Uebung2.csproj",
+        "projectUniqueName": "C:\\Users\\Bjarne\\Documents\\HSNR\\HSNR-Code\\DotNet\\Uebung2\\Uebung2.csproj",
         "projectName": "Uebung2",
-        "projectPath": "C:\\Users\\Bjarne\\Documents\\HSNR\\4. Semester\\BWI 403 - Softwareentwicklung mit .NET\\Code\\Uebung2\\Uebung2.csproj",
+        "projectPath": "C:\\Users\\Bjarne\\Documents\\HSNR\\HSNR-Code\\DotNet\\Uebung2\\Uebung2.csproj",
         "packagesPath": "C:\\Users\\Bjarne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bjarne\\Documents\\HSNR\\4. Semester\\BWI 403 - Softwareentwicklung mit .NET\\Code\\Uebung2\\obj\\",
+        "outputPath": "C:\\Users\\Bjarne\\Documents\\HSNR\\HSNR-Code\\DotNet\\Uebung2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
