@@ -1,5 +1,5 @@
 # University Code
-Code from my university for my bachelor's degree
+Code from my university for my bachelor's degree.
 Each class is represented where I wrote some code
 
 ##Overview for each class:
