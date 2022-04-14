@@ -1,0 +1,4 @@
+Artikelnummer: 1234
+Preis: 23647.45
+Artikelnummer: 12345
+Preis: 1237.34

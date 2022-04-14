@@ -1,0 +1,26 @@
+.text {
+	-fx-font-family: Arial;
+	-fx-font-size: 1.3em;
+}
+
+.button {
+	-fx-font-family: Arial;
+	-fx-font-size: 1.3em;
+	-fx-font-weight: bold;
+	-fx-background-color: blue;
+	-fx-text-fill: white;
+	-fx-background-radius: 8;
+}
+
+.button:pressed {
+   -fx-background-color: lightblue;
+}
+
+#name {
+	-fx-font-family: Arial;
+    -fx-font-size: 1.3em;
+}
+
+#result {
+	-fx-text-fill: red;
+}

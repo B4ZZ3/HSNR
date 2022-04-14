@@ -1,0 +1,21 @@
+package serialisieren3;
+
+import java.io.FileInputStream;
+import java.io.ObjectInputStream;
+import java.util.Vector;
+
+public class Test2 {
+	@SuppressWarnings("rawtypes")
+	public static void main(String[] args) throws Exception {
+		ObjectInputStream in = new ObjectInputStream(new FileInputStream(
+				"kunden.dat"));
+		Vector list = (Vector) in.readObject();
+		in.close();
+
+		int size = list.size();
+		for (int i = 0; i < size; i++) {
+			Kunde k = (Kunde) list.get(i);
+			System.out.println(k.getName() + "; " + k.getAdresse());
+		}
+	}
+}
