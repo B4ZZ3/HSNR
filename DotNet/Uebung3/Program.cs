@@ -42,3 +42,5 @@ g.DrawImage(img9, 512, 512);
 g.Dispose();
 
 karte.Save(@"C:\Users\Bjarne\Documents\HSNR\HSNR-Code\DotNet\Uebung3\karte.jpg", ImageFormat.Jpeg);
+
+//Ende
